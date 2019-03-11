@@ -1,0 +1,86 @@
+header{
+    background-color: rgb(165, 165, 165);
+    width: 100%;
+    height: auto;
+    padding-top: 0;
+    position: relative;
+    box-shadow: 0 2px 5px;
+}
+
+body{
+    background-image: url("../img/upperbanner.jpg");
+    
+}
+
+footer{
+    background-color: rgb(165, 165, 165);
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+    position: relative;
+    box-shadow: 0 2px 5px;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+
+    
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+ul.navbar li{
+    float: left;
+}
+
+ul.navbar li a {
+    display: block;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+ul.navbar li a:hover {
+    color: rgb(255, 254, 254);
+    text-decoration: underline;
+
+}
+
+ul.navbar li a:active {
+    background-color: rgb(255, 254, 254);
+}
+
+#intro{
+    font-size: 32px;
+    padding-left: 70px;
+    padding-top: 50px;
+    padding-right: 10px;
+
+}
+
+#mainBanner{
+    border: 1px solid rgba(165, 165, 165, 0.7);margin-top:20px;
+    background-color: rgba(165, 165, 165, 0.7);
+    height: 340px;
+
+}
+
+/* css for profile picture in home page only*/
+.profPic{
+    width: 300px;
+    height: 300px;
+    border-radius:200px;
+    box-shadow: 4px 4px 5px; /*h-offset v-offset blur spread color*/
+    float: left;
+    margin: 20px;
+    
+}
+
+
